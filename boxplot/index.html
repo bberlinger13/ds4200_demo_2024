@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boxplot with D3.js</title>
+  <style>
+    svg {
+      background-color: #f9f9f9;
+      margin: 20px;
+    }
+    .box {
+      fill: steelblue;
+      stroke: black;
+      stroke-width: 1;
+    }
+    .median {
+      stroke: red;
+      stroke-width: 2;
+    }
+    .whisker {
+      stroke: black;
+      stroke-width: 1;
+    }
+  </style>
+</head>
+<body>
+  <h1>Simple Boxplot</h1>
+  <svg id="boxplot" width="600" height="400"></svg>
+  
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="boxplot.js"></script>   
+</body>
+</html>
